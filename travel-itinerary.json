@@ -1,0 +1,71 @@
+{
+    "tripName": "Japan Travel",
+    "traveler": {
+        "name": "Hello Kitty",
+        "contact": {
+            "email": "kitty@sanrio.net",
+            "phone": "555-1234"
+             },
+    "destinations": [
+         {
+             "location": "Tokyo",
+             "arrivalDate": "2025-05-01",
+             "departureDate": "2025-05-02",
+             "activities": [
+                  {
+                     "title": "Shibuya Scramble Crossing",
+                     "time": "5:00 PM"
+                 },
+                 {
+                      "title": "Tokyo Skytree",
+                      "time": "6:00 PM"
+                 }
+              ],
+             "transportation": [
+                  {
+                      "mode": "plane",
+                      "cost": "$1500"
+                  }
+               ]
+         },
+         {
+              "location": "Kyoto",
+               "arrivalDate": "2025-05-02",
+               "departureDate": "2025-05-03",
+               "activities": [
+                  {
+                    "title": "Kinkakuji",
+                       "time": "10:00 AM"
+                },
+                {
+                     "title": "Ginkakuji",
+                    "time": "1:00 PM"
+                  }
+              ],
+              "transportation": [
+                   {
+                     "mode": "train",
+                      "cost": "$15"
+                  }
+              ]
+          },
+          {
+               "location": "Chicago", 
+               "arrivalDate": "2025-09-10",
+               "departureDate": "2025-09-13",
+               "activities": [
+                  {
+                     "title": "Beam",
+                     "time": "11:00 AM"
+                 }
+               ],
+               "transportation": [
+                 {
+                     "mode": "car",
+                     "cost": "$50"
+                  }
+               ]
+         }
+     ]
+ }
+}
